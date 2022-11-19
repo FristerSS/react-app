@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img{
+    border-radius: 15%;
+}
+
+body{
+    background-color: RGBA(0, 0, 0, 0.2);
+}
+
+.app
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    color: #222;
+}
+
+header{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 30vh;
+    color:white;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    padding: 30px 0;
+
+}
+
+aside{
+    min-width: 50px;
+    width: 15vw;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1023px) {
+    aside{
+        font-size: 1.0rem;
+    }
+} 
+
+@media only screen and (max-width: 512px) {
+    aside{
+        font-size: 0.6rem;
+    }
+} 
+
+
+
+section.page{
+    flex-grow: 1;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 1023px) {
+    
+    section.page{
+        font-size: 0.8rem;
+        flex-grow: 0.7;
+    }
+} 
+
+@media only screen and (max-width: 512px) {
+    
+    section.page{
+        font-size: 0.5rem;
+        flex-grow: 0.4;
+    }
+} 
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color:  black;
+    width: 100%;
+    height: 3vh;
+    left: 2px;
+    margin: 0 auto;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1023px) {
+    footer{
+        font-size: 0.9rem;
+    }
+} 
+
+@media only screen and (max-width: 512px) {
+    footer{
+        font-size: 0.5rem;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+

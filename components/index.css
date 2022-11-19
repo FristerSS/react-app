@@ -1,0 +1,12 @@
+.App{
+  color: blue;
+}
+
+body{
+  text-align: center;
+}
+
+p, button {
+  text-align: center;
+  font-size: 64px;
+}
